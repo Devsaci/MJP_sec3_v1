@@ -7,11 +7,18 @@ using UnityEngine;
 // 24.Créer des fonctions avec C# pour réutiliser son code
 public class ExempleFonvtion : MonoBehaviour
 {
-    // Start is called before the first frame update
 
+    public void AfficherMessage() {
+        print("Message");
+    }
+
+    // Start is called before the first frame update
     void Start()
     {
-        
+        AfficherMessage();
+        AfficherMessage();
+        AfficherMessage();
+
     }
 
     // Update is called once per frame
