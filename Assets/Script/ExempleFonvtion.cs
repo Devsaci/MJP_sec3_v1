@@ -8,8 +8,9 @@ using UnityEngine;
 public class ExempleFonvtion : MonoBehaviour
 {
 
-    public void AfficherMessage() {
-        print("MessageFonction");
+    public void AfficherMessage(string message) {
+        //print("MessageFonction");
+        print(message);
     }
 
     // Start is called before the first frame update
