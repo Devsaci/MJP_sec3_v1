@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.VersionControl;
 using UnityEngine;
 
 
@@ -7,6 +8,7 @@ using UnityEngine;
 // 24.Créer des fonctions avec C# pour réutiliser son code
 public class ExempleFonvtion : MonoBehaviour
 {
+    private string message;
 
     public void AfficherMessage(string message) {
         //print("MessageFonction");
@@ -19,9 +21,9 @@ public class ExempleFonvtion : MonoBehaviour
         print("Message Start");
 
         
-        AfficherMessage();
-        AfficherMessage();
-        AfficherMessage();
+        AfficherMessage(message);
+        AfficherMessage(message);
+        AfficherMessage(message);
         
     }
 
