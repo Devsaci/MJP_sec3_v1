@@ -8,23 +8,27 @@ using UnityEngine;
 // 24.Créer des fonctions avec C# pour réutiliser son code
 public class ExempleFonvtion : MonoBehaviour
 {
-    private string message;
+    private readonly string msg1 = "Premier Message";
+    private readonly string msg2 = "Second Message";
 
     public void AfficherMessage(string message) {
-        //print("MessageFonction");
+        print("MessageFonction");
         print(message);
     }
 
     // Start is called before the first frame update
     void Start()
     {
+        print("/////////////////////////////////");
         print("Message Start");
+        print("/////////////////////////////////");
+        AfficherMessage("Premier Message");
+        print("/////////////////////////////////");
+        AfficherMessage(msg1);
+        print("/////////////////////////////////");
+        AfficherMessage(msg2);
+        print("/////////////////////////////////");
 
-        
-        AfficherMessage(message);
-        AfficherMessage(message);
-        AfficherMessage(message);
-        
     }
 
     // Update is called once per frame
