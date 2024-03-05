@@ -9,16 +9,19 @@ public class ExempleFonvtion : MonoBehaviour
 {
 
     public void AfficherMessage() {
-        print("Message");
+        print("MessageFonction");
     }
 
     // Start is called before the first frame update
     void Start()
     {
-        AfficherMessage();
-        AfficherMessage();
-        AfficherMessage();
+        print("Message Start");
 
+        
+        AfficherMessage();
+        AfficherMessage();
+        AfficherMessage();
+        
     }
 
     // Update is called once per frame
