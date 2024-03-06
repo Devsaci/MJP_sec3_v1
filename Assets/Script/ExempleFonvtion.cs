@@ -12,22 +12,22 @@ public class ExempleFonvtion : MonoBehaviour
     private readonly string msg2 = "Second Message";
 
     public void AfficherMessage(string message) {
-        print("MessageFonction");
+        
         print(message);
     }
 
     // Start is called before the first frame update
     void Start()
     {
-        print("/////////////////////////////////");
+        print("//////////////Message Start///////////");
         print("Message Start");
-        print("/////////////////////////////////");
-        AfficherMessage("Premier Message");
-        print("/////////////////////////////////");
+        print("//////////////Message Fonction////////");
+        AfficherMessage("Message Fonction");
+        print("//////////////Premier Message/////////");
         AfficherMessage(msg1);
-        print("/////////////////////////////////");
+        print("//////////////Second Message//////////");
         AfficherMessage(msg2);
-        print("/////////////////////////////////");
+        print("/////////////   END    //////////////////////");
 
     }
 
