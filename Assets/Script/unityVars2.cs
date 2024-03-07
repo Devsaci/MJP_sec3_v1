@@ -4,10 +4,13 @@ using UnityEngine;
 
 public class unityVars2 : MonoBehaviour
 {
+
+    public GameObject go;
+
     // Start is called before the first frame update
     void Start()
     {
-        public GameObject go = new GameObject();
+       
     }
 
     // Update is called once per frame
