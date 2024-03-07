@@ -424,6 +424,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34bb288c5e1a867498cb37ac08e8184e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  go: {fileID: 1015533522}
+  goTransforme: {fileID: 0}
+  goPos: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
