@@ -20,6 +20,7 @@ public class unityVars2 : MonoBehaviour
         transform.position = goPos;
 
         rend = GetComponent<Renderer>();
+        mat = rend.material;
     }
 
     // Update is called once per frame
