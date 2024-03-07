@@ -17,6 +17,8 @@ public class unityVars2 : MonoBehaviour
     {
        goPos = goTransforme.position;
         transform.position = goPos;
+
+        rend = GetComponent<Renderer>();
     }
 
     // Update is called once per frame
