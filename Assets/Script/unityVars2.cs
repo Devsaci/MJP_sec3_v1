@@ -9,6 +9,8 @@ public class unityVars2 : MonoBehaviour
     public Transform goTransforme;
     public Vector3 goPos;
 
+    public Renderer rend;
+
     // Start is called before the first frame update
     void Start()
     {
