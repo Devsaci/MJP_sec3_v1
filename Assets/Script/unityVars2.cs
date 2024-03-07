@@ -24,6 +24,8 @@ public class unityVars2 : MonoBehaviour
 
         col = GetComponent<Collider>();
         rend.enabled = false;
+
+        col.isTrigger = true;
     }
 
     // Update is called once per frame
