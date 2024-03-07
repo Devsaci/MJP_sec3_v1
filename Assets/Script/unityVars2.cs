@@ -10,6 +10,7 @@ public class unityVars2 : MonoBehaviour
     public Vector3 goPos;
 
     public Renderer rend;
+    public Material mat;
     public Collider col;
 
     // Start is called before the first frame update
